@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(23, 240, 255), hotpink);
+  /* font-family: "Ms Madi", cursive; */
+  /* font-family: "Open Sans", sans-serif; */
+}
+.card {
+  width: 300px;
+  min-height: 430px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img {
+  width: 100%;
+  height: 130px;
+  /* background-color: blueviolet; */
+  background-image: url(https://thumbs.dreamstime.com/b/flowers-4929984.jpg);
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  /* background-image: url("https://thumbs.dreamstime.com/b/flowers-4929984.jpg"); */
+}
+.circle {
+  position: relative;
+}
+.circle img {
+  width: 120px;
+  height: 120px;
+  /* background: #000; */
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  bottom: -50px;
+  object-fit: cover;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex span {
+  margin-right: 20%;
+  text-align: center;
+}
+.flex div {
+  text-align: center;
+}
+.content h3 {
+  text-align: center;
+  margin: 18% 0 0 0;
+}
+.small {
+  text-align: center;
+  line-height: 1px;
+}
+.btn {
+  width: 200px;
+  background: linear-gradient(to right, hotpink, skyblue);
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px 0px 0px 50px;
+  border: none;
+}
+p {
+  padding: 0px 10px 0px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.color {
+  color: hotpink;
+  /* text-shadow: 2px 2px 2px rgb(255, 116, 139); */
+  font-weight: 400;
+  font-size: 30px;
+}
